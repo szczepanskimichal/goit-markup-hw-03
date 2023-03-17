@@ -7,6 +7,15 @@
   padding: 0 auto;
   display: flex;
 }
+header {
+  display: flex;
+  flex-direction: row;
+}
+.allButtons {
+  display: flexbox;
+  flex-direction: row;
+  border: #000000 2px;
+}
 .box {
   display: block;
   width: 1200px;
@@ -16,9 +25,10 @@
   margin: 0 auto;
 }
 .element {
-  display: inline;
+  display: flexbox;
+  border: #000000 2px;
   box-sizing: content-box;
-  margin: 10 10 10 10;
+  margin: 50 50 50 50;
 }
 .section {
   box-sizing: border-box;
