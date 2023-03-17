@@ -1,5 +1,34 @@
 /*@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 */
+.container {
+  width: 1200px;
+  background-color: aquamarine;
+  margin: 0 auto;
+  padding: 0 auto;
+  display: flex;
+}
+.box {
+  display: block;
+  width: 1200px;
+  box-sizing: border-box;
+  border: 2px solid #f44336;
+  padding: 0px auto;
+  margin: 0 auto;
+}
+.element {
+  display: inline;
+  box-sizing: content-box;
+  margin: 10 10 10 10;
+}
+.section {
+  box-sizing: border-box;
+  display: block;
+  border: 2px solid red;
+  width: 1200px;
+  background-color: aquamarine;
+  margin: 0 auto;
+  padding: 0 auto;
+}
 .logo:hover {
   text-decoration: none;
 }
@@ -21,6 +50,9 @@
 }
 body {
   font-family: "Roboto", "Raleway", sans-serif;
+  width: 1600px;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 
 .link {
@@ -83,6 +115,8 @@ h3 {
 }
 .footer {
   background: #2f303a;
+  margin: 0 auto;
+  height: 252px;
 }
 .address {
   text-decoration: none;
