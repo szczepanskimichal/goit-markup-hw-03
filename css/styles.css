@@ -1,0 +1,117 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+*/
+.logo:hover {
+  text-decoration: none;
+}
+.web {
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #2196f3;
+}
+.studio {
+  font-size: 26px;
+  text-align: left;
+  color: #000000;
+}
+.stu {
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+}
+
+.link {
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #212121;
+}
+.mailto {
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.mailto:hover {
+  text-decoration: underline #2196f3;
+}
+.tel1 {
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.tel1:hover {
+  text-decoration: underline #2196f3;
+}
+.link:hover {
+  text-decoration: underline #2196f3;
+  color: #2196f3;
+}
+body {
+  color: #212121;
+}
+ul {
+  list-style-type: none;
+}
+
+.button {
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: center;
+  cursor: pointer;
+}
+.button:hover {
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+h3 {
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #212121;
+}
+h3 {
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.footer {
+  background: #2f303a;
+}
+.address {
+  text-decoration: none;
+  background: #2f303a;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.contact {
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: rgba(255, 255, 255, 0.6);
+}
+.tel {
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.loremIpsum {
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.lorem {
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+/*.pointer {
+  cursor: pointer;
+}*/
+/*link:focus {
+  text-decoration-color: rgb(255, 0, 0);
+}*/
