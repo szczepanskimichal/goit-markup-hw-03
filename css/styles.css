@@ -58,7 +58,9 @@ body {
   justify-content: center;
   margin: 0 auto;
   padding: 0 auto;
-  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 .flex-container {
   border: 1px #2196f3 solid;
@@ -96,7 +98,6 @@ ul {
 .button {
   line-height: 1.5;
   letter-spacing: 0.03em;
-  text-align: center;
   cursor: pointer;
 }
 .button:hover {
