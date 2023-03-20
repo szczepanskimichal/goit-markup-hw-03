@@ -31,6 +31,7 @@ ul > li {
 }
 .menu {
   display: inline-flex;
+  justify-content: space-around;
   gap: 90px;
   padding: 15px;
   margin: 0;
@@ -54,6 +55,7 @@ a {
   text-decoration: none;
   color: #212121;
 }
+
 .link {
   margin: 0 auto;
   padding: 10px 10px 10px 10px;
@@ -70,8 +72,7 @@ a {
   color: #212121;
   background-color: #fff;
 }
-.menu .link:hover,
-.menu .link:focus {
+.menu .link:hover {
   text-decoration-color: #2196f3;
   cursor: pointer;
 }
@@ -93,7 +94,9 @@ a {
   display: inline;
   padding: 10px;
 }
-
+.el:last-of-type {
+  display: none;
+}
 .buttons .buttons .link:hover,
 .buttons .link:focus {
   text-decoration-color: #2196f3;
@@ -105,9 +108,10 @@ a {
   max-width: 1200px;
   padding: 5px;
   padding-right: 0;
-  display: flex;
+  display: inline;
   align-items: center;
-  justify-content: center;
+
+  justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
 }
@@ -129,7 +133,8 @@ a {
   flex-wrap: wrap;
   /* Set gap between rows and columns */
   gap: 10px;
-  padding: 0;
+  padding-left: 200px;
+  padding-right: 0;
   list-style: none;
   align-content: space-evenly;
 }
@@ -144,8 +149,7 @@ a {
   margin-right: 0;
   padding-right: 0%;
 }
-.el2:first-child {
-}
+
 section {
   flex-basis: calc((100% - 20px) / 4);
   display: inline-block;
@@ -229,4 +233,8 @@ button {
 .footer .a {
   font-style: normal;
   text-decoration: none;
+}
+.jon {
+  text-decoration: none;
+  color: white;
 }
