@@ -73,8 +73,8 @@ a {
   background-color: #fff;
 }
 .menu .link:hover {
-  text-decoration-color: #2196f3;
-  cursor: pointer;
+  text-decoration: underline #2196f3;
+  color: #2196f3;
 }
 
 .buttons {
