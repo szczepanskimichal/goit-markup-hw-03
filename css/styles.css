@@ -196,7 +196,7 @@ section {
 }
 h2 {
   text-decoration-color: #ffffff;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
