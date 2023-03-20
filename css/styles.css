@@ -1,58 +1,115 @@
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
 }
-
-.pudelko {
-  margin: 50px 50px 50px 50px;
-  box-sizing: border-box;
-  width: 150px;
-  height: 150px;
-  border: 2px dashed #212121;
-  background-color: #ffeb3b;
-  padding-top: 200px;
-  padding-right: 100px;
-  padding-bottom: 150px;
-  padding-left: 300px;
+html {
+  paddin: 0;
+  margin: 0;
 }
 
-<article class="post">
-  <div class="post-thumb">
-    <img class="post-image" src="https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_1280.jpg" alt="Tabby cat in a funny sitting position">
-  </div>
-  <h1 class="post-heading">All about cats</h1>
-  <p class="post-text">Lorem ipsum dolor sit, amet consectetur elit omnis adipisicing. Omnis voluptatibus sit reprehenderit iure est eveniet saepe fugit debitis laborum odio voluptatem repellat eaque voluptatum quos neque optio, perspiciatis aperiam error odit praesentium consequatur totam maiores. Minus similique molestias, eveniet delectus eaque dignissimos! Id deserunt magni doloremque, corrupti consectetur vero veniam!</p>
-</article>
-.buttons {
-}
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#body {
+body {
   width: 1200px;
-  font-family: "Roboto", "Raleway", sans-serif;
-  display: flex;
-  align-content: stretch;
-  flex-direction: row;
-  justify-content: center;
 }
 
-#header {
-  height: 80px;
+.page-header {
+  /*  Making header.page-header a Flex-container and aligning elements  */
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px;
 }
-#header.nav {
-  border: #cc0202 1px solid;
-}
-#section {
-  border: #000000 1px solid;
-  display: grid;
-  grid-template-columns: 400 400 400;
-}
-.logo:hover {
+
+.logo {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 4px;
   text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  gap: 90px;
+  padding: 15px;
+  margin: 0;
+  list-style: none;
+  border-radius: 4px;
+}
+
+.menu .link {
+  display: flex;
+  justify-items: flex-end;
+  padding: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+}
+a {
+}
+.buttons {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  text-decoration-color: #2196f3;
+
+  list-style-type: none;
+}
+.buttons:first-child {
+}
+.buttons .buttons .link:hover,
+.buttons .link:focus {
+  text-decoration-color: #2196f3;
+  cursor: pointer;
+}
+.menu .link:hover,
+.menu .link:focus,
+.logo:hover,
+.logo:focus {
+  text-decoration-color: #2196f3;
+  cursor: pointer;
+}
+/*tabela*/
+.container {
+  max-width: 1200px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-set {
+  display: flex;
+  /* Make a flex container multiline */
+  flex-wrap: wrap;
+  /* Set gap between rows and columns */
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+  align-content: space-evenly;
+}
+.ul > li {
+  list-style-type: none;
+}
+
+.item {
+  /*  Set the width of the elements  */
+  flex-basis: calc((100% - 20px) / 3);
+
+  padding: 10px;
+}
+
+.item h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.item p {
+  margin: 0;
+}
+
+.menu {
+  display: flex;
 }
 .web {
   font-size: 26px;
@@ -70,86 +127,13 @@
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-
-.link {
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #212121;
-}
-.mailto {
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-.mailto:hover {
-  text-decoration: underline #2196f3;
-}
-.tel1 {
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-.tel1:hover {
-  text-decoration: underline #2196f3;
-}
-.link:hover {
-  text-decoration: underline #2196f3;
-  color: #2196f3;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.button {
-  letter-spacing: 0.03em;
-  cursor: pointer;
-}
-.button:hover {
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #ffffff;
-  background-color: #2196f3;
-  cursor: pointer;
-}
-
-a {
-  text-decoration: none;
-}
-
-h3 {
-  text-align: left;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-
-footer {
+.footer {
   background: #2f303a;
-  margin: 0 auto;
-  max-height: 252px;
-  width: 100%;
+  width: 1200px;
 }
 .address {
   text-decoration: none;
   background: #2f303a;
   letter-spacing: 0.03em;
   color: #ffffff;
-}
-
-.contact {
-  letter-spacing: 0.03em;
-  text-decoration-line: underline;
-  color: rgba(255, 255, 255, 0.6);
-}
-.tel {
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.loremIpsum {
-  letter-spacing: 0.03em;
-  text-align: left;
-}
-.lorem {
-  letter-spacing: 0.03em;
-  text-align: left;
 }
