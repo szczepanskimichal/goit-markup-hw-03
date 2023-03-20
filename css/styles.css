@@ -11,8 +11,8 @@ html {
   width: 1200px;
 }
 .section {
-  padding-top: 47px;
-  padding-bottom: 47px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .page-header {
   /*  Making header.page-header a Flex-container and aligning elements  */
@@ -205,7 +205,7 @@ h2 {
 }
 .cont {
   text-decoration-color: #ffffff;
-  height: 400;
+  max-height: 400px;
   background-color: #2f303a;
 }
 
@@ -214,7 +214,11 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-
+.cosik {
+  height: 648px;
+  padding-top: 94px;
+  background-color: #f5f4fa;
+}
 .img {
   margin-right: 15px;
 }
