@@ -1,51 +1,55 @@
-/*@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
-*/
-/*.container {
-  width: 1200px;
-  background-color: aquamarine;
-  margin: 0 auto;
-  padding: 0 auto;
-  display: flex;
-  flex-direction: row;
-}*/
-.flex-container {
-  border: 1px #2196f3 solid;
-  margin-right: 0 auto;
-  padding: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.container {
-  width: 1200px;
-}
-body {
-  font-family: "Roboto", "Raleway", sans-serif;
-
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-  justify-content: center;
-}
-header {
-  max-height: 80px;
-  display: flex;
-}
-.nav {
-  flex-direction: column;
-}
-.element {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-.section {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  display: block;
-  margin: 0 auto;
-  padding: 0 auto;
+}
+
+.pudelko {
+  margin: 50px 50px 50px 50px;
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  border: 2px dashed #212121;
+  background-color: #ffeb3b;
+  padding-top: 200px;
+  padding-right: 100px;
+  padding-bottom: 150px;
+  padding-left: 300px;
+}
+
+<article class="post">
+  <div class="post-thumb">
+    <img class="post-image" src="https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_1280.jpg" alt="Tabby cat in a funny sitting position">
+  </div>
+  <h1 class="post-heading">All about cats</h1>
+  <p class="post-text">Lorem ipsum dolor sit, amet consectetur elit omnis adipisicing. Omnis voluptatibus sit reprehenderit iure est eveniet saepe fugit debitis laborum odio voluptatem repellat eaque voluptatum quos neque optio, perspiciatis aperiam error odit praesentium consequatur totam maiores. Minus similique molestias, eveniet delectus eaque dignissimos! Id deserunt magni doloremque, corrupti consectetur vero veniam!</p>
+</article>
+.buttons {
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#body {
+  width: 1200px;
+  font-family: "Roboto", "Raleway", sans-serif;
+  display: flex;
+  align-content: stretch;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#header {
+  height: 80px;
+}
+#header.nav {
+  border: #cc0202 1px solid;
+}
+#section {
+  border: #000000 1px solid;
+  display: grid;
+  grid-template-columns: 400 400 400;
 }
 .logo:hover {
   text-decoration: none;
@@ -95,12 +99,8 @@ header {
 ul {
   list-style-type: none;
 }
-.allbuttons {
-  flex-wrap: wrap;
-  flex-direction: row;
-}
+
 .button {
-  line-height: 1.5;
   letter-spacing: 0.03em;
   cursor: pointer;
 }
@@ -114,10 +114,9 @@ ul {
 
 a {
   text-decoration: none;
-  border: #2196f3 1px solid;
 }
+
 h3 {
-  letter-spacing: 0.06em;
   text-align: left;
   letter-spacing: 0.06em;
   color: #212121;
@@ -126,7 +125,8 @@ h3 {
 footer {
   background: #2f303a;
   margin: 0 auto;
-  height: 252px;
+  max-height: 252px;
+  width: 100%;
 }
 .address {
   text-decoration: none;

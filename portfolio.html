@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head class="flex-container">
     <title>homework2</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,61 +18,58 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
+  <header>
+    <nav>
+      <a class="logo" href="./index.html"
+        ><span class="web">Web</span><span class="studio">Studio</span></a
+      >
+      <p>
+        <a class="link" href="./index.html">Agency</a>
+      </p>
+      <p>
+        <a class="link" href="./portfolio.html">Portfolio</a>
+      </p>
+      <p>
+        <a class="link" href="#"> Contacts </a>
+      </p>
+      <p>
+        <a class="mailto" href="mailto:webmaster@example.com">Jon Doe</a>
+      </p>
+      <p>
+        <a class="tel1" href="tel:9308102393434">9308102393434</a>
+      </p>
+    </nav>
+  </header>
+
   <body class="flex-container">
-    <div class="container">
-      <header >
-        <div class="element"
-        <a class="logo" href="./index.html"><span class="web">Web</span><span class="studio">Studio</span></a>
-      </div>
-        <nav class="nav">
-          <p class="element">
-            <a class="link" href="./index.html">Agency</a>
-          </p>
-          <p class="element">
-            <a class="link" href="./portfolio.html">Portfolio</a>
-          </p>
-          <p class="element">
-            <a class="link" href="#"> Contacts </a>
-          </p>
-            <p class="element">
-              <a class="mailto" href="mailto:webmaster@example.com">Jon Doe</a>
-            </p>
-            <p class="element">
-              <a class="tel1" href="tel:9308102393434">9308102393434</a>
-            </p>
-          </nav>
-      </header>
+    <div id="one" class="buttons">
+      <ul>
+        <li>
+          <button type="button">All</button>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <button type="button">Pages</button>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <button type="button">Apps</button>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <button type="button">Design</button>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <button type="button">Marketing</button>
+        </li>
+      </ul>
     </div>
-    <div class="allButtons">
-      <div class="buttons">
-        <ul>
-          <li>
-            <button class="button" type="button">All</button>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <button class="button" type="button">Pages</button>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <button class="button" type="button">Apps</button>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <button class="button" type="button">Design</button>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <button class="button" type="button">Marketing</button>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <section class="section">
+    <section id="two" class="section">
       <div>
         <img
           src="images/img (1).jpg"
@@ -186,6 +183,5 @@
         USA
       </address>
     </footer>
-  </body>
   </body>
 </html>
