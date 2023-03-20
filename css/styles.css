@@ -4,10 +4,12 @@
 html {
   paddin: 0;
   margin: 0;
+  align-items: center;
 }
 
 body {
   width: 1200px;
+  margin: 30vh;
 }
 
 .page-header {
@@ -53,8 +55,7 @@ ul > li {
   text-decoration-color: #2196f3;
   cursor: pointer;
 }
-a {
-}
+
 .buttons {
   display: block;
   text-align: center;
@@ -64,6 +65,13 @@ a {
   text-decoration-color: #2196f3;
 
   list-style-type: none;
+}
+
+.el {
+  /*  Set the width of the elements  */
+  flex-basis: calc((100% - 20px) / 3);
+  display: inline;
+  padding: 10px;
 }
 
 .buttons .buttons .link:hover,
@@ -91,18 +99,34 @@ a {
   align-content: space-evenly;
 }
 
-.el {
+.lorem {
+  display: flex;
+  /* Make a flex container multiline */
+  flex-wrap: wrap;
+  /* Set gap between rows and columns */
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+  align-content: space-evenly;
+}
+
+.el2 {
   /*  Set the width of the elements  */
-  flex-basis: calc((100% - 20px) / 3);
-  display: inline;
+  flex-basis: calc((100% - 20px) / 4);
+  display: inline-block;
+  padding: 0;
+}
+.el2:last-child {
+  margin-right: 0;
+  padding-right: 0%;
+}
+.el2:first-child {
+}
+section {
+  flex-basis: calc((100% - 20px) / 4);
+  display: inline-block;
   padding: 10px;
 }
-
-.item h2 {
-  margin-top: 0;
-  font-size: 20px;
-}
-
 .item p {
   margin: 0;
 }
@@ -136,4 +160,13 @@ a {
   letter-spacing: 0.03em;
   color: #ffffff;
   font-style: normal;
+}
+.efficent {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
