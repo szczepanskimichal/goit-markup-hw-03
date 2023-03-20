@@ -7,9 +7,8 @@ html {
   align-items: center;
 }
 
-body {
+#body {
   width: 1200px;
-  margin: 30vh;
 }
 
 .page-header {
@@ -108,14 +107,13 @@ a {
 /*table with pictures*/
 .container {
   max-width: 1200px;
-  padding: 5px;
   padding-right: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
   display: inline;
   align-items: center;
-
+  margin-right: 0;
   justify-content: space-around;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .img-set {
@@ -125,7 +123,6 @@ a {
   /* Set gap between rows and columns */
   gap: 10px;
   padding: 0;
-  margin: 15px;
   list-style: none;
   align-content: space-evenly;
   border-box: #ececec 1px solid;
@@ -137,7 +134,7 @@ a {
   flex-wrap: wrap;
   /* Set gap between rows and columns */
   gap: 10px;
-  padding-left: 200px;
+  /* padding-left: 200px; */
   padding-right: 0;
   list-style: none;
   align-content: space-evenly;
@@ -186,6 +183,7 @@ section {
   text-style: none;
   background: #2f303a;
   width: 1200px;
+  max-height: fit-content;
 }
 .address {
   text-decoration: none;
