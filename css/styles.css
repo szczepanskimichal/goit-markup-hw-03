@@ -10,7 +10,10 @@ html {
 #body {
   width: 1200px;
 }
-
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .page-header {
   /*  Making header.page-header a Flex-container and aligning elements  */
   display: inline-block;
@@ -121,11 +124,9 @@ a {
   /* Make a flex container multiline */
   flex-wrap: wrap;
   /* Set gap between rows and columns */
-  gap: 10px;
-  padding: 0;
+  gap: 15px;
   list-style: none;
   align-content: space-evenly;
-  border-box: #ececec 1px solid;
 }
 
 .lorem {
@@ -151,8 +152,8 @@ a {
   padding-right: 0%;
 }
 
-section {
-  flex-basis: calc((100% - 20px) / 4);
+section1 {
+  flex-basis: calc((100% - 20px) / 3);
   display: inline-block;
   padding: 10px;
 }
