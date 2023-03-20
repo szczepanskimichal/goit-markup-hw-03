@@ -37,7 +37,12 @@ ul > li {
   list-style: none;
   border-radius: 4px;
 }
-
+.link {
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  border-color: #ffffff;
+}
 .menu .link {
   display: flex;
   justify-items: flex-end;
@@ -45,13 +50,11 @@ ul > li {
   padding-right: 10px;
   border-radius: 4px;
   text-decoration: none;
-  color: black;
+  color: #212121;
   background-color: #fff;
 }
 .menu .link:hover,
-.menu .link:focus,
-.logo:hover,
-.logo:focus {
+.menu .link:focus {
   text-decoration-color: #2196f3;
   cursor: pointer;
 }
@@ -80,12 +83,14 @@ ul > li {
   cursor: pointer;
 }
 
-/*tabela*/
+/*table with pictures*/
 .container {
   max-width: 1200px;
   padding: 5px;
   padding-right: 0;
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -130,7 +135,7 @@ section {
   padding: 10px;
 }
 .item p {
-  margin: 0;
+  justify-content: center;
 }
 
 .menu {
@@ -153,6 +158,7 @@ section {
   color: #ffffff;
 }
 .footer {
+  text-style: none;
   background: #2f303a;
   width: 1200px;
 }
@@ -178,22 +184,32 @@ h2 {
   height: 400;
   background-color: #2f303a;
 }
-.whatWeDo {
-  display: flex;
-  justify-content: center;
-}
+
 .ourTeam {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .everything {
-  padding: 20px;
+  margin-left: 30px;
+  padding: 0 auto;
 }
 .img {
   margin-right: 15px;
+}
+h3,
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 button {
   background: #2196f3;
   color: #ffffff;
   align-items: center;
   text-align: center;
+}
+.footer .a {
+  font-style: normal;
+  text-decoration: none;
 }
