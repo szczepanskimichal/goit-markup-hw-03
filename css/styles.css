@@ -11,8 +11,8 @@ html {
   width: 1200px;
 }
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 47px;
+  padding-bottom: 47px;
 }
 .page-header {
   /*  Making header.page-header a Flex-container and aligning elements  */
@@ -229,6 +229,7 @@ button {
   color: #ffffff;
   align-items: center;
   text-align: center;
+  border-radius: 4px;
 }
 .footer .a {
   font-style: normal;
