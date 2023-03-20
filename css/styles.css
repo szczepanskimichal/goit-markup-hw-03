@@ -12,7 +12,7 @@ body {
 
 .page-header {
   /*  Making header.page-header a Flex-container and aligning elements  */
-  display: flex;
+  display: inline-block;
   align-items: flex-end;
   justify-content: space-between;
   padding: 10px;
@@ -24,9 +24,11 @@ body {
   border-radius: 4px;
   text-decoration: none;
 }
-
+ul > li {
+  list-style-type: none;
+}
 .menu {
-  display: flex;
+  display: inline-flex;
   gap: 90px;
   padding: 15px;
   margin: 0;
@@ -44,10 +46,17 @@ body {
   color: black;
   background-color: #fff;
 }
+.menu .link:hover,
+.menu .link:focus,
+.logo:hover,
+.logo:focus {
+  text-decoration-color: #2196f3;
+  cursor: pointer;
+}
 a {
 }
 .buttons {
-  display: flex;
+  display: block;
   text-align: center;
   padding: 10px;
   padding-right: 10px;
@@ -56,20 +65,13 @@ a {
 
   list-style-type: none;
 }
-.buttons:first-child {
-}
+
 .buttons .buttons .link:hover,
 .buttons .link:focus {
   text-decoration-color: #2196f3;
   cursor: pointer;
 }
-.menu .link:hover,
-.menu .link:focus,
-.logo:hover,
-.logo:focus {
-  text-decoration-color: #2196f3;
-  cursor: pointer;
-}
+
 /*tabela*/
 .container {
   max-width: 1200px;
@@ -78,7 +80,7 @@ a {
   margin-right: auto;
 }
 
-.card-set {
+.img-set {
   display: flex;
   /* Make a flex container multiline */
   flex-wrap: wrap;
@@ -88,14 +90,11 @@ a {
   list-style: none;
   align-content: space-evenly;
 }
-.ul > li {
-  list-style-type: none;
-}
 
-.item {
+.el {
   /*  Set the width of the elements  */
   flex-basis: calc((100% - 20px) / 3);
-
+  display: inline;
   padding: 10px;
 }
 
