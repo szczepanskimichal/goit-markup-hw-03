@@ -84,6 +84,7 @@ ul > li {
 .container {
   max-width: 1200px;
   padding: 5px;
+  padding-right: 0;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -167,11 +168,13 @@ section {
   justify-content: center;
 }
 h2 {
+  text-decoration-color: #ffffff;
   display: block;
   justify-content: center;
   align-items: center;
 }
 .cont {
+  text-decoration-color: #ffffff;
   height: 400;
   background-color: #2f303a;
 }
@@ -181,4 +184,16 @@ h2 {
 }
 .ourTeam {
   display: flex;
+}
+.everything {
+  padding: 20px;
+}
+.img {
+  margin-right: 15px;
+}
+button {
+  background: #2196f3;
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
 }
