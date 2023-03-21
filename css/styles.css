@@ -72,8 +72,8 @@ ul {
   cursor: pointer;
   color: #fff;
 }*/
-#button:hover,
-#button:focus {
+.button:hover,
+.button:focus {
   letter-spacing: 0.03em;
   text-align: center;
   text-decoration-color: #ffffff;
