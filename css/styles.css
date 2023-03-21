@@ -65,22 +65,22 @@ ul {
   line-height: 1.5;
 }
 
-.button {
+/*.button {
   line-height: 1.5;
   letter-spacing: 0.03em;
   text-align: center;
   cursor: pointer;
-}
-.button:hover,
-.button:focus {
+  color: #fff;
+}*/
+#button:hover,
+#button:focus {
   letter-spacing: 0.03em;
   text-align: center;
-  color: #ffffff;
+  text-decoration-color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
 }
-
-h3 {
+*/ h3 {
   letter-spacing: 0.06em;
   text-align: left;
   color: #212121;
@@ -103,9 +103,10 @@ h3 {
   font-style: normal;
   color: #ffffff;
 }
+
 .contact {
   letter-spacing: 0.03em;
-  text-decoration-line: underline;
+  /* text-decoration-line: underline;*/
   color: rgba(255, 255, 255, 0.6);
 }
 .tel {
@@ -120,6 +121,7 @@ h3 {
 }
 .page-header {
   /*  Making header.page-header a Flex-container and aligning elements  */
+  max-width: 1200px;
   display: inline-block;
   align-items: center;
   justify-content: space-between;
@@ -158,18 +160,18 @@ ul > li {
   list-style-type: none;
   text-decoration: none;
 }
-a {
+/*a {
   text-decoration: none;
   color: #212121;
-}
+}*/
 
-.link {
+/*.link {
   margin: 0 auto;
   padding: 10px 10px 10px 10px;
   border-radius: 10px;
-  border-color: #ffffff;
-}
-.menu .link {
+  text-decoration: none;
+}*/
+/*.menu .link {
   display: flex;
   justify-items: flex-end;
   padding: 10px;
@@ -184,32 +186,52 @@ a {
   text-decoration: underline #2196f3;
   color: #2196f3;
 }
-
+*/
 .buttons {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   padding: 10px;
   padding-right: 10px;
   border-radius: 4px;
-  text-decoration-color: #2196f3;
-
   list-style-type: none;
 }
-
-.el {
+/*probuje zmienic kolor tekstu na buttonach*/
+/*.buttons:hover,
+.buttons:focus {
+  color: #ffffff;
+}
+*/ /*
+#button {
+  background-color: #2196f3;
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+}*/
+*/ .el {
   /*  Set the width of the elements  */
   flex-basis: calc((100% - 20px) / 3);
   display: inline;
-  padding: 10px;
 }
-.el:last-of-type {
+
+.el2 {
+  /*  Set the width of the elements  */
+  flex-basis: calc((100% - 20px) / 5);
+  display: inline-block;
+}
+/*.el:last-of-type {
   display: none;
-}
+}*/
+
+/*TUTAJ ZMIENIA SIE PODKRESLENIE LINKOW
 .buttons .link:hover,
 .buttons .link:focus {
   text-decoration-color: #2196f3;
   cursor: pointer;
-}
+  text-decoration: none;
+}*/
 
 /*table with pictures*/
 .container {
@@ -248,18 +270,12 @@ a {
   align-content: space-evenly;
 }
 
-.el2 {
-  /*  Set the width of the elements  */
-  flex-basis: calc((100% - 20px) / 5);
-  display: inline-block;
-  padding: 0;
-}
 /*.el2:last-child {
   margin-right: 0;
   padding-right: 0%;
 }*/
 
-section1 {
+.section1 {
   flex-basis: calc((100% - 20px) / 3);
   display: inline-block;
   padding: 10px;
@@ -268,20 +284,17 @@ section1 {
   justify-content: center;
 }
 
-.menu {
-  display: flex;
-}
-
 .efficent {
   display: flex;
   justify-content: center;
+  justify-content: center;
 }
-h2 {
+/*h2 {
   text-decoration-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+}*/
 .cont {
   text-decoration-color: #ffffff;
   max-height: 400px;
@@ -306,19 +319,4 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-button {
-  background: #2196f3;
-  color: #ffffff;
-  align-items: center;
-  text-align: center;
-  border-radius: 4px;
-}
-.footer .a {
-  font-style: normal;
-  text-decoration: none;
-}
-.jon {
-  text-decoration: none;
-  color: white;
 }
