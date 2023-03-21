@@ -1,16 +1,122 @@
 * {
   box-sizing: border-box;
+  max-width: 1600px;
 }
 html {
   paddin: 0;
   margin: 0;
   align-items: center;
 }
-
-#body {
-  width: 1200px;
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: normal;
 }
-.section {
+.logo:hover {
+  text-decoration: none;
+}
+.web {
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #2196f3;
+}
+.studio {
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #000000;
+}
+.stu {
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.link {
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #212121;
+}
+.mailto {
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.mailto:hover,
+.mailto:focus {
+  color: #2196f3;
+}
+.tel1 {
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.tel1:hover,
+.link:hover,
+.tel1:focus,
+.link:focus {
+  color: #2196f3;
+}
+a {
+  text-decoration: none;
+  line-height: normal;
+}
+.footer a:hover,
+.footer a:focus {
+  color: #2196f3;
+}
+ul {
+  list-style-type: none;
+  line-height: normal;
+}
+
+.button {
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: center;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+h3 {
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #212121;
+  line-height: normal;
+}
+.footer {
+  background: #2f303a;
+  line-height: 1.5;
+}
+.address {
+  text-decoration: none;
+  font-style: normal;
+  text-decoration: none;
+  background: #2f303a;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.address a {
+  font-style: normal;
+  color: #ffffff;
+}
+.contact {
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: rgba(255, 255, 255, 0.6);
+}
+.tel {
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/kombinacja z .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -150,10 +256,10 @@ a {
   display: inline-block;
   padding: 0;
 }
-.el2:last-child {
+/*.el2:last-child {
   margin-right: 0;
   padding-right: 0%;
-}
+}*/
 
 section1 {
   flex-basis: calc((100% - 20px) / 3);
@@ -167,35 +273,7 @@ section1 {
 .menu {
   display: flex;
 }
-.web {
-  font-size: 26px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #2196f3;
-}
-.studio {
-  font-size: 26px;
-  text-align: left;
-  color: #000000;
-}
-.stu {
-  font-size: 26px;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-.footer {
-  text-style: none;
-  background: #2f303a;
-  width: 1200px;
-  max-height: fit-content;
-}
-.address {
-  text-decoration: none;
-  background: #2f303a;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  font-style: normal;
-}
+
 .efficent {
   display: flex;
   justify-content: center;
