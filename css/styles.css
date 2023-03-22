@@ -161,18 +161,19 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.ourTeam {
+.img {
+  background-color: #f5f4fa;
+  padding-top: 93px;
+  padding-bottom: 93px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #f5f4fa;
 }
-.imgIndex {
-  display: block;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+.ourTeam {
+  padding-top: 93px;
+  padding-bottom: 93px;
 }
+
 .section {
   display: flex;
   justify-content: center;
