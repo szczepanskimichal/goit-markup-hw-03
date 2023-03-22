@@ -148,7 +148,10 @@ section {
   line-height: 1.1;
   letter-spacing: 0.03em;
   padding-top: 93px;
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
+  flex-grow: 1;
   justify-content: space-between;
 }
 .lorem-heading .p {
@@ -158,21 +161,33 @@ section {
   padding-top: 93px;
   padding-bottom: 93px;
   display: flex;
-  flex-wrap: wrap;
+  flex-grow: 1;
   justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .img {
   background-color: #f5f4fa;
   padding-top: 93px;
   padding-bottom: 93px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .ourTeam {
   display: flex;
   justify-content: space-between;
 }
+
 .imgIndex {
   padding-top: 50px;
   border: #000000 1px solid;
+  flex-grow: 1;
+}
+.ourTeam .meta {
+  text-align: center;
+}
+.meta h3 {
+  text-align: center;
 }
 .section {
   display: flex;
@@ -234,7 +249,12 @@ p {
 .images {
   padding-top: 93px;
   padding-bottom: 93px;
+  border: #EEEEEE; 1px solid;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  text-align: center;
+}
+.images h3 {
+  text-align: center;
 }
