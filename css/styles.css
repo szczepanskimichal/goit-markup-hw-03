@@ -9,6 +9,7 @@ body {
   line-height: normal;
   line-height: 1.5;
   max-width: 1600px;
+  background: #e5e5e5;
 }
 header {
   display: flex;
@@ -22,6 +23,7 @@ header {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 0 0 0;
+  margin-right: 0;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -96,6 +98,16 @@ a {
 .footer a:focus {
   color: #2196f3;
 }
+section {
+  color: #ffffff;
+  background-color: #2f303a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 93px;
+  padding-bottom: 93px;
+}
 ul {
   list-style-type: none;
   line-height: normal;
@@ -108,14 +120,16 @@ ul {
   justify-content: space-between;
 }
 .button {
-  width: 200px;
-  height: 50px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   background-color: #2196f3;
   border-style: none;
   text-align: center;
   cursor: pointer;
+  padding-left: 22;
+  padding-right: 22;
+  padding-top: 6;
+  padding-bottom: 6;
   border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -128,15 +142,7 @@ ul {
   color: #ffffff;
   cursor: pointer;
 }
-section {
-  color: #ffffff;
-  background-color: #2f303a;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 93px;
-}
+
 .section .button {
   justify-content: center;
   align-items: center;
@@ -156,6 +162,7 @@ section {
 }
 .lorem-heading .p {
   text-align: justify;
+  padding-top: 93px;
 }
 .whatWeDo {
   padding-top: 93px;
@@ -172,6 +179,7 @@ section {
   padding-bottom: 93px;
   padding-left: 15px;
   padding-right: 15px;
+  max-height: 648px;
 }
 .ourTeam {
   display: flex;
@@ -179,8 +187,8 @@ section {
 }
 
 .imgIndex {
-  padding-top: 50px;
-  border: #000000 1px solid;
+  padding-top: 93px;
+  padding-bottom: 93px;
   flex-grow: 1;
 }
 .ourTeam .meta {
@@ -228,7 +236,6 @@ p {
   text-decoration: none;
   font-style: normal;
   text-decoration: none;
-  background: #2f303a;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -249,7 +256,6 @@ p {
 .images {
   padding-top: 93px;
   padding-bottom: 93px;
-  border: #EEEEEE; 1px solid;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -257,4 +263,20 @@ p {
 }
 .images h3 {
   text-align: center;
+}
+li .item {
+  border: #eeeeee 1px solid;
+}
+.button2 {
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-style: none;
+  text-align: center;
+  cursor: pointer;
+  padding-left: 22;
+  padding-right: 22;
+  padding-top: 6;
+  padding-bottom: 6;
+  border-radius: 4px;
 }
