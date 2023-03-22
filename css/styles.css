@@ -165,15 +165,14 @@ section {
   background-color: #f5f4fa;
   padding-top: 93px;
   padding-bottom: 93px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 .ourTeam {
-  padding-top: 93px;
-  padding-bottom: 93px;
+  display: flex;
+  justify-content: space-between;
 }
-
+.imgIndex {
+  padding-top: 50px;
+}
 .section {
   display: flex;
   justify-content: center;
