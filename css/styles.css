@@ -61,7 +61,23 @@ ul {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-
+.pictures{
+  flex-basis: calc((100% - 20px) / 3);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 90px;
+}
+.img-set {
+  
+  /* Make a flex container multiline */
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 20px) / 4);
+  /* Set gap between rows and columns */
+  gap: 15px;
+  list-style: none;
+  align-content: space-evenly;
+}
 .link {
   font-size: 14px;
   letter-spacing: 0.02em;
