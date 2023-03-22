@@ -172,12 +172,9 @@ section {
 }
 .imgIndex {
   padding-top: 50px;
+  border: #000000 1px solid;
 }
-h3,
-p {
-  justify-content: center;
-  align-items: center;
-}
+
 .section {
   display: flex;
   justify-content: center;
