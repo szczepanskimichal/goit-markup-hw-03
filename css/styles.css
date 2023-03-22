@@ -13,6 +13,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 80px;
+  border: #ececec 1px solid;
 }
 .container {
   max-width: 1200px;
@@ -62,7 +64,6 @@ header {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-
 .link {
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -73,14 +74,13 @@ header {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.mailto:hover,
-.mailto:focus {
-  color: #2196f3;
-}
+
 .tel1 {
   letter-spacing: 0.02em;
   color: #757575;
 }
+.mailto:hover,
+.mailto:focus,
 .tel1:hover,
 .link:hover,
 .tel1:focus,
@@ -102,6 +102,8 @@ ul {
   line-height: 1.5;
 }
 .buttons {
+  padding-top: 93px;
+  padding-bottom: 93px;
   display: flex;
   justify-content: space-between;
 }
@@ -129,18 +131,32 @@ ul {
 section {
   color: #ffffff;
   background-color: #2f303a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 93px;
+}
+.section .button {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
 }
 .lorem-heading {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
+  padding-top: 93px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 10px;
+}
+.lorem-heading .p {
+  text-align: justify;
 }
 .whatWeDo {
+  padding-top: 93px;
+  padding-bottom: 93px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -149,11 +165,21 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: #f5f4fa;
+}
+.imgIndex {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section {
+  display: flex;
+  justify-content: center;
 }
 h1 {
   font-weight: 900;
   font-size: 44px;
-  text-align: center;
 }
 h2 {
   font-size: 36px;
@@ -178,6 +204,7 @@ p {
   line-height: 1.2;
 }
 .footer {
+  max-height: 252px;
   background: #2f303a;
   line-height: 1.5;
 }
@@ -204,6 +231,8 @@ p {
 
 /*PORTFOLIO*/
 .images {
+  padding-top: 93px;
+  padding-bottom: 93px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
