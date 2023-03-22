@@ -22,17 +22,16 @@ body {
 .logo {
   margin: 24px 0px 25px 215px;
 }
-.ul {
+.item {
+  display: flex;
+}
+ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
   line-height: normal;
   line-height: 1.5;
 }
-ul .li {
-  list-style-type: none;
-}
-
 .contact {
   
   margin: 32px 23px 32px 23px;
