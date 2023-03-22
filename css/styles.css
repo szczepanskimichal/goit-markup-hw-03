@@ -111,7 +111,6 @@ section {
 ul {
   list-style-type: none;
   line-height: normal;
-  line-height: 1.5;
 }
 .buttons {
   padding-top: 93px;
@@ -198,8 +197,7 @@ ul {
   text-align: center;
 }
 .section {
-  display: flex;
-  justify-content: center;
+  border: #000000 1px solid;
 }
 h1 {
   font-weight: 900;
@@ -254,7 +252,7 @@ p {
 
 /*PORTFOLIO*/
 .images {
-  padding-top: 93px;
+  padding-top: 50px;
   padding-bottom: 93px;
   display: flex;
   flex-wrap: wrap;
@@ -267,10 +265,14 @@ p {
 li .item {
   border: #eeeeee 1px solid;
 }
-.button2 {
-  line-height: 1.5;
+.buttonsP {
+  padding-top: 93px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.buttonP {
+  background-color: #f5f4fa;
   letter-spacing: 0.03em;
-  background: #f5f4fa;
   border-style: none;
   text-align: center;
   cursor: pointer;
@@ -279,4 +281,11 @@ li .item {
   padding-top: 6;
   padding-bottom: 6;
   border-radius: 4px;
+  flex-grow: 1;
+}
+button {
+  padding-left: 22;
+  padding-right: 22;
+  padding-top: 6;
+  padding-bottom: 6;
 }
