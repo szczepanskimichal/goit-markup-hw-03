@@ -21,6 +21,7 @@ header {
   margin: 0 0 0 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .links {
   padding-left: 23px;
@@ -126,15 +127,30 @@ ul {
   color: #ffffff;
   cursor: pointer;
 }
+section {
+  color: #ffffff;
+  background-color: #2f303a;
+}
 .lorem-heading {
+  /*  Set the width of the elements  */
+  flex-basis: calc((100% - 20px) / 3);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
-section {
-  color: #ffffff;
-  background-color: #2f303a;
+.whatWeDo {
+  flex-basis: calc((100% - 20px) / 3);
+  display: flex;
+  flex-wrap: wrap;
+}
+.ourTeam {
+  flex-basis: calc((100% - 20px) / 4);
+  display: flex;
+  flex-wrap: wrap;
 }
 h1 {
   font-weight: 900;
@@ -146,6 +162,8 @@ h2 {
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.2;
+  display: flex;
+  justify-content: center;
 }
 h3 {
   font-weight: 500;
