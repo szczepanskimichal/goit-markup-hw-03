@@ -10,38 +10,33 @@ body {
   max-width: 1600px;
   display: flex;
   display: inline;
-  justify-content: center;
-  justify-content: space-between;*/
   border-bottom: 1px solid #ececec;
 }
-.logo{
+.container {
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  
+}
+.logo {
   margin: 24px 0px 25px 215px;
+}
+.ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  line-height: normal;
+  line-height: 1.5;
 }
 ul .li {
   list-style-type: none;
 }
 
-.container {
-  max-width: 1170px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-.item {
-  margin: 32px 0px 32px 93px;
-  justify-content: space-between;
-}
-.item a{
-  margin:32px 23px 32px 23px;
-}
-
 .contact {
-  margin:32px 23px 32px 23px;
+  
+  margin: 32px 23px 32px 23px;
   letter-spacing: 0.03em;
-  /* text-decoration-line: underline;*/
   color: rgba(255, 255, 255, 0.6);
 }
 .web {
@@ -95,23 +90,19 @@ a {
 .footer a:focus {
   color: #2196f3;
 }
-ul {
-  list-style-type: none;
-  line-height: normal;
-  line-height: 1.5;
-}
+
 .button:hover,
 .button:focus {
   letter-spacing: 0.03em;
   text-align: center;
-  text-decoration-color: #ffffff;
+  color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
 }
 .buttons {
   display: inline-flex;
   justify-content: center;
-  
+
   border-radius: 4px;
 }
 h3 {
@@ -158,8 +149,6 @@ h3 {
   text-decoration: none;
 }*/
 
-cos do buttonow 
-
 /*  Set the width of the elements  
 .el {
   
@@ -168,7 +157,7 @@ cos do buttonow
 }
 */
 .el2 {
-  /*  Set the width of the elements  */
+  /*  Set the width of the elements  /
   flex-basis: calc((100% - 20px) / 4);
   display: inline-block;
   gap: 15px;
@@ -177,13 +166,13 @@ to jest wazne
 /*table with pictures
 .container {
   flex-basis: calc((100% - 20px) / 3);
-}*/
+}
 .img-set {
   display: flex;
-  /* Make a flex container multiline */
+  / Make a flex container multiline /
   flex-wrap: wrap;
   flex-basis: calc((100% - 20px) / 4);
-  /* Set gap between rows and columns */
+  / Set gap between rows and columns /
   gap: 15px;
   list-style: none;
   align-content: space-evenly;
@@ -192,11 +181,11 @@ to jest wazne
 .lorem {
   flex-basis: calc((100% - 20px) / 4);
   display: flex;
-  /* Make a flex container multiline */
+  / Make a flex container multiline /
   flex-wrap: wrap;
-  /* Set gap between rows and columns */
+  / Set gap between rows and columns /
   gap: 10px;
-  /* padding-left: 200px; */
+  / padding-left: 200px; /
   padding-right: 0;
   list-style: none;
   align-content: space-evenly;
@@ -207,7 +196,6 @@ to jest wazne
   padding: 10px;
 }
 
-
 .efficent {
   display: flex;
   justify-content: center;
@@ -217,3 +205,4 @@ to jest wazne
   justify-content: center;
   align-items: center;
 }
+*/
