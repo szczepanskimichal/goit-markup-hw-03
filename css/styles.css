@@ -5,8 +5,35 @@ body {
   line-height: normal;
   line-height: 1.5;
 }
+.page-header {
+  /*  Making header.page-header a Flex-container and aligning elements  */
+  max-width: 1600px;
+  justify-content: space-between;
+  border-bottom: 1px solid #ececec;
+}
+
+.logo {
+  text-decoration: none;
+}
+ul > li {
+  list-style-type: none;
+  display: inline;
+}
 .logo:hover {
   text-decoration: none;
+}
+.container {
+  max-width: 1170;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.menu {
+  /*display: inline-flex;
+  justify-content: space-around;*/
+  gap: 90px;
+  list-style: none;
+  border-radius: 4px;
 }
 .web {
   font-size: 26px;
@@ -64,14 +91,6 @@ ul {
   line-height: normal;
   line-height: 1.5;
 }
-
-/*.button {
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-  text-align: center;
-  cursor: pointer;
-  color: #fff;
-}*/
 .button:hover,
 .button:focus {
   letter-spacing: 0.03em;
@@ -119,34 +138,7 @@ h3 {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.page-header {
-  /*  Making header.page-header a Flex-container and aligning elements  */
-  max-width: 1200px;
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid #ececec;
-}
 
-.logo {
-  padding: 20px;
-  margin: 20px;
-  border-radius: 4px;
-  text-decoration: none;
-}
-ul > li {
-  list-style-type: none;
-  display: block;
-  display: inline;
-}
-.menu {
-  display: inline-flex;
-  justify-content: space-around;
-  gap: 90px;
-  padding: 15px;
-  margin: 0;
-  list-style: none;
-  border-radius: 4px;
-}
 .m {
   display: inline-flex;
   align-items: center;
@@ -160,33 +152,6 @@ ul > li {
   list-style-type: none;
   text-decoration: none;
 }
-/*a {
-  text-decoration: none;
-  color: #212121;
-}*/
-
-/*.link {
-  margin: 0 auto;
-  padding: 10px 10px 10px 10px;
-  border-radius: 10px;
-  text-decoration: none;
-}*/
-/*.menu .link {
-  display: flex;
-  justify-items: flex-end;
-  padding: 10px;
-  padding-right: 10px;
-  border-radius: 4px;
-  text-decoration: none;
-  color: #212121;
-  background-color: #fff;
-}
-.menu .link:hover,
-.menu .link:focus {
-  text-decoration: underline #2196f3;
-  color: #2196f3;
-}
-*/
 .buttons {
   display: flex;
   align-items: center;
@@ -197,58 +162,36 @@ ul > li {
   border-radius: 4px;
   list-style-type: none;
 }
-/*probuje zmienic kolor tekstu na buttonach*/
-/*.buttons:hover,
-.buttons:focus {
-  color: #ffffff;
-}
-*/ /*
-#button {
-  background-color: #2196f3;
-  color: #ffffff;
-  align-items: center;
-  text-align: center;
-  border-radius: 4px;
-}*/
+cos do buttonow 
+
+/*  Set the width of the elements  
 .el {
-  /*  Set the width of the elements  */
+  
   flex-basis: calc((100% - 20px) / 3);
   display: inline;
 }
-
+*/
 .el2 {
   /*  Set the width of the elements  */
-  flex-basis: calc((100% - 20px) / 5);
+  flex-basis: calc((100% - 20px) / 4);
   display: inline-block;
 }
-/*.el:last-of-type {
-  display: none;
-}*/
-
-/*TUTAJ ZMIENIA SIE PODKRESLENIE LINKOW
-.buttons .link:hover,
-.buttons .link:focus {
-  text-decoration-color: #2196f3;
-  cursor: pointer;
-  text-decoration: none;
-}*/
-
-/*table with pictures*/
+to jest wazne
+/*table with pictures
 .container {
   flex-basis: calc((100% - 20px) / 3);
-}
-
+}*/
 .img-set {
   display: flex;
   /* Make a flex container multiline */
   flex-wrap: wrap;
+  flex-basis: calc((100% - 20px) / 3);
   /* Set gap between rows and columns */
   gap: 15px;
 
   list-style: none;
   align-content: space-evenly;
 }
-
 .lorem {
   display: flex;
   /* Make a flex container multiline */
@@ -260,12 +203,6 @@ ul > li {
   list-style: none;
   align-content: space-evenly;
 }
-
-/*.el2:last-child {
-  margin-right: 0;
-  padding-right: 0%;
-}*/
-
 .section1 {
   flex-basis: calc((100% - 20px) / 3);
   display: inline-block;
@@ -274,25 +211,16 @@ ul > li {
 .item p {
   justify-content: center;
 }
-
 .efficent {
   display: flex;
   justify-content: center;
 }
-/*h2 {
-  text-decoration-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}*/
-.cont {
+/*.cont {
   text-decoration-color: #ffffff;
   max-height: 400px;
   background-color: #2f303a;
-}
-
+}*/
 .ourTeam {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
