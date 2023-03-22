@@ -21,7 +21,7 @@ header {
   margin: 0 0 0 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 10px;
 }
 .links {
   padding-left: 23px;
@@ -30,7 +30,6 @@ header {
   margin-left: 23px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .contact {
   display: flex;
@@ -132,25 +131,24 @@ section {
   background-color: #2f303a;
 }
 .lorem-heading {
-  /*  Set the width of the elements  */
-  flex-basis: calc((100% - 20px) / 3);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 10px;
 }
 .whatWeDo {
-  flex-basis: calc((100% - 20px) / 3);
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .ourTeam {
-  flex-basis: calc((100% - 20px) / 4);
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 h1 {
   font-weight: 900;
@@ -202,4 +200,11 @@ p {
 .tel {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*PORTFOLIO*/
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
