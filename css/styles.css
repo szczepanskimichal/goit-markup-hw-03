@@ -1,5 +1,8 @@
 /*@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 */
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
   line-height: normal;
@@ -20,12 +23,24 @@ header {
   align-items: center;
 }
 .links {
+  padding-left: 23px;
+  padding-right: 26px;
+  margin-right: 26px;
+  margin-left: 23px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .contact {
   display: flex;
   justify-content: space-between;
+}
+.links .link {
+  display: block;
+}
+.contact .mailto,
+.contact .tel1 {
+  display: block;
 }
 .logo:hover {
   text-decoration: none;
