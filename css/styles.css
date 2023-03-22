@@ -8,6 +8,7 @@ body {
 .page-header {
   /*  Making header.page-header a Flex-container and aligning elements  */
   max-width: 1600px;
+  
   display: flex;
   display: inline;
   border-bottom: 1px solid #ececec;
@@ -17,7 +18,11 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  
+  padding-top: 94px;
+  margin-bottom: 94px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo {
   margin: 24px 0px 25px 215px;
