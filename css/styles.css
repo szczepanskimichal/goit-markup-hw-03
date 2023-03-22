@@ -267,25 +267,19 @@ li .item {
 }
 .buttonsP {
   padding-top: 93px;
-  display: flex;
-  flex-wrap: wrap;
 }
 .buttonP {
   background-color: #f5f4fa;
-  letter-spacing: 0.03em;
-  border-style: none;
-  text-align: center;
-  cursor: pointer;
-  padding-left: 22;
-  padding-right: 22;
-  padding-top: 6;
-  padding-bottom: 6;
   border-radius: 4px;
-  flex-grow: 1;
+  border: none;
+  padding: 6px 22px 6px 22px;
+  text-decoration-color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
-button {
-  padding-left: 22;
-  padding-right: 22;
-  padding-top: 6;
-  padding-bottom: 6;
+.buttonP:hover,
+.buttonP:focus {
+  background-color: #2196f3;
+  color: #ffffff;
 }
