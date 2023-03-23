@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: normal;
   max-width: 1600px;
   background: #e5e5e5;
@@ -340,5 +340,3 @@ p {
 li .item {
   border: #eeeeee 1px solid;
 }
-
-*/
