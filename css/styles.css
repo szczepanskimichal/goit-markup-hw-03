@@ -54,16 +54,19 @@ header {
   letter-spacing: 0.03em;
   text-align: left;
   color: #2196f3;
+  font-weight: 700;
 }
 .studio {
   font-size: 26px;
   letter-spacing: 0.03em;
+  font-weight: 700;
   text-align: left;
   color: #000000;
 }
 .stu {
   font-size: 26px;
   letter-spacing: 0.03em;
+  font-weight: 700;
   color: #ffffff;
 }
 .link {
@@ -78,6 +81,7 @@ header {
 }
 
 .tel1 {
+  font-size: 14px;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -90,6 +94,7 @@ header {
   color: #2196f3;
 }
 a {
+  font-weight: 500;
   text-decoration: none;
   line-height: normal;
   line-height: 1.5;
@@ -111,6 +116,7 @@ section {
 ul {
   list-style-type: none;
   line-height: normal;
+  line-height: 1.5;
 }
 .buttons {
   padding-top: 93px;
@@ -162,6 +168,10 @@ ul {
 .lorem-heading .p {
   text-align: justify;
   padding-top: 93px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
 }
 .whatWeDo {
   padding-top: 93px;
@@ -224,6 +234,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
+  color: #757575;
 }
 .footer {
   max-height: 252px;
@@ -231,6 +242,9 @@ p {
   line-height: 1.5;
 }
 .address {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
   text-decoration: none;
   font-style: normal;
   text-decoration: none;
@@ -239,15 +253,17 @@ p {
 }
 .address a {
   font-style: normal;
-  color: #ffffff;
+  color: #757575;
 }
 .contact {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .tel {
+  font-weight: 400;
+  font-size: 14px;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: #757575;
 }
 
 /*PORTFOLIO*/
