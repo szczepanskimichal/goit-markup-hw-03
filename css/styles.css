@@ -1,12 +1,9 @@
-/*@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
-*/
 * {
   box-sizing: border-box;
 }
 body {
   font-family: "Roboto", sans-serif;
   font-family: "Raleway", sans-serif;
-  line-height: normal;
   max-width: 1600px;
   background: #e5e5e5;
 }
@@ -67,7 +64,6 @@ header {
 a {
   font-weight: 500;
   text-decoration: none;
-  line-height: 1.5;
 }
 .footer a:hover,
 .footer a:focus {
@@ -75,7 +71,6 @@ a {
 }
 ul {
   list-style-type: none;
-  line-height: normal;
   line-height: 1.5;
 }
 .buttons {
@@ -87,26 +82,17 @@ ul {
 .button {
   width: 200px;
   height: 50px;
-  line-height: 1.5;
   letter-spacing: 0.03em;
   background-color: #2196f3;
-  border-style: none;
-  text-align: center;
   cursor: pointer;
-  padding-left: 22;
-  padding-right: 22;
-  padding-top: 6;
-  padding-bottom: 6;
+  padding: 6px 22px;
   border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 .links {
-  padding-left: 23px;
-  padding-right: 26px;
-  margin-right: 26px;
-  margin-left: 23px;
+  padding-left: 23px 26px;
 }
 .contact {
   display: flex;
@@ -141,39 +127,32 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-.button {
+/*.button {
   width: 200px;
   height: 50px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-  background-color: #2196f3;
-  border-style: none;
-  text-align: center;
+  background-color: #ffffff;
   cursor: pointer;
-  padding-left: 22;
-  padding-right: 22;
-  padding-top: 6;
-  padding-bottom: 6;
+  padding: 6px 22px;
   border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-}
-.button:hover,
+}*/
+/*.button:hover,
 .button:focus {
   letter-spacing: 0.03em;
   text-align: center;
   color: #ffffff;
   cursor: pointer;
-}
+}*/
 .lorem-heading {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   padding-top: 93px;
-  /*padding-left: 15px;
-  padding-right: 15px;*/
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
@@ -191,20 +170,18 @@ h2 {
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.2;
-  display: flex;
-  justify-content: center;
+  /*display: flex;
+  justify-content: center;*/
 }
 h3 {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
   line-height: 1.2;
-  letter-spacing: 0.06em;
   text-align: left;
   color: #212121;
 }
 p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   color: #757575;
@@ -213,6 +190,8 @@ p {
   max-height: 252px;
   background: #2f303a;
   line-height: 1.5;
+  display: flex;
+  justify-content: center;
 }
 .address {
   font-size: 14px;
@@ -225,7 +204,6 @@ p {
   color: #ffffff;
 }
 .address a {
-  font-style: normal;
   color: #757575;
 }
 .contact {
@@ -233,7 +211,6 @@ p {
   color: rgba(255, 255, 255, 0.6);
 }
 .tel {
-  font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
   color: #757575;
