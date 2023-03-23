@@ -158,6 +158,8 @@ ul {
   justify-content: space-between;
 }
 .section {
+  width: 100%;
+  display: flex;
   color: #ffffff;
   border: #000000 1px solid;
 }
@@ -240,8 +242,6 @@ p {
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .ourTeam {
   display: flex;
@@ -308,8 +308,6 @@ p {
   padding-bottom: 93px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  text-align: center;
 }
 .images h3 {
   text-align: center;
