@@ -203,12 +203,6 @@ h1 {
   padding-right: 15px;
 }
 
-.header {
-  max-width: 1200px;
-  display: flex;
-  flex-basis: 2 1 1 1 2 2;
-}
-
 .primary-box {
   display: flex;
   flex-direction: column;
@@ -236,4 +230,7 @@ h1 {
 .picturesWhatWeDo {
   display: flex;
   gap: 30px;
+}
+.links {
+  justify-content: space-around;
 }
