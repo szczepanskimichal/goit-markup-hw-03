@@ -121,10 +121,10 @@ h1 {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #212121;
-  display: flex;
-  justify-content: center;
   margin-bottom: 50px;
   margin-top: 94px;
+  display: flex;
+  align-content: center;
 }
 .name {
   font-weight: 500;
@@ -228,8 +228,10 @@ h1 {
 .picturesOurTeam {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
   flex-basis: calc((100% - 20px) / 4);
-  gap: 15px;
+  gap: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -248,7 +250,7 @@ h1 {
   width: 100%;
   /*  Making header.page-header a Flex-container and aligning elements  */
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   border: #000000 1px dashed;
   margin: 0;
   padding: 0;
@@ -256,20 +258,23 @@ h1 {
 /*-------do menu muszisz uzyc padingow-------*/
 .menu {
   display: flex;
+  align-items: first baseline;
 }
-.menu .link {
-  padding: 50px;
-  margin-right: 0;
+.item {
+  display: flex;
+  margin-left: 46px;
 }
+
 .buttonsP {
   display: flex;
   justify-content: center;
 }
-.mailto,
-.tel1 {
-  padding: 50px;
-}
+
 /*-------------------------*/
 .whatWeDo {
+  display: flex;
+  gap: 30px;
+}
+.contacts {
   display: flex;
 }
