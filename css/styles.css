@@ -83,6 +83,7 @@ ul {
   color: #ffffff;
   cursor: pointer;
   padding: 6px 22px;
+  margin-bottom: 240px;
   border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -102,6 +103,7 @@ ul {
 }
 section {
   color: #ffffff;
+  max-height: 600px;
 }
 .primary-box {
   background-color: #2f303a;
@@ -110,6 +112,8 @@ h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
+  margin-top: 200px;
+  margin-bottom: 40px;
 }
 .sectionHeading {
   font-size: 36px;
@@ -119,6 +123,8 @@ h1 {
   color: #212121;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 94px;
 }
 .name {
   font-weight: 500;
@@ -148,6 +154,7 @@ h1 {
 }
 .footer {
   background: #2f303a;
+  max-width: 1200px;
 }
 .address {
   font-family: "Roboto";
@@ -197,8 +204,12 @@ h1 {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .container {
-  max-width: 1170px;
-  margin: 0 auto;
+  max-width: 1200px;
+  margin: 0;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding-top: 0;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -212,25 +223,53 @@ h1 {
   display: flex;
   align-self: center;
   gap: 30px;
+  margin-top: 94px;
 }
 .picturesOurTeam {
   display: flex;
   flex-wrap: wrap;
   flex-basis: calc((100% - 20px) / 4);
-  /*gap: 15px;*/
+  gap: 15px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  margin-bottom: 94px;
+  margin-right: 0;
 }
-.ourTeam {
+
+.img-set {
+  display: flex;
+  flex-wrap: wrap;
+  /*poprawic*/
+  gap: 30px;
+  padding: 0;
+}
+.page-header {
+  width: 100%;
+  /*  Making header.page-header a Flex-container and aligning elements  */
+  display: flex;
+  align-items: center;
+  border: #000000 1px dashed;
+  margin: 0;
+  padding: 0;
+}
+/*-------do menu muszisz uzyc padingow-------*/
+.menu {
+  display: flex;
+}
+.menu .link {
+  padding: 50px;
+  margin-right: 0;
+}
+.buttonsP {
   display: flex;
   justify-content: center;
-  background: #f5f4fa;
 }
-.picturesWhatWeDo {
+.mailto,
+.tel1 {
+  padding: 50px;
+}
+/*-------------------------*/
+.whatWeDo {
   display: flex;
-  gap: 30px;
-}
-.links {
-  justify-content: space-around;
 }
