@@ -226,13 +226,13 @@ h1 {
 }
 .picturesOurTeam {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
+  padding: 0;
   flex-basis: calc((100% - 20px) / 4);
   gap: 30px;
 }
 .picture {
+  padding: 0;
+  align-items: center;
   background: #ffffff;
   /* material shadow v1 */
 
@@ -245,6 +245,7 @@ h1 {
   height: 80px;
   /*  Making header.page-header a Flex-container and aligning elements  */
   display: flex;
+  align-items: center;
   border-bottom: 1px solid #ececec;
   margin: 0;
   padding: 0;
@@ -286,12 +287,8 @@ h1 {
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-.navLogo .item {
-  display: flex;
-  padding: 10px;
-  border-radius: 4px;
-  text-decoration: none;
-  color: black;
-  background-color: #fff;
+.nav .item {
+  margin-right: 50px;
 }
