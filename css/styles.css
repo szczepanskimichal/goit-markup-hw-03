@@ -239,12 +239,8 @@ h1 {
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 94px;
 }
-.img-set {
-  display: flex;
-
+.img-set2 {
   margin: auto;
-  flex-basis: calc((100% - 20px) / 3);
-  gap: 30px;
 }
 .page-header {
   width: 100%;
@@ -276,7 +272,10 @@ h1 {
   flex-direction: column;
   align-items: center;
 }
-.item {
+.item2 {
   background: #ffffff;
   border: 1px solid #eeeeee;
+
+  flex-basis: calc((100% - 20px) / 3);
+  gap: 30px;
 }
