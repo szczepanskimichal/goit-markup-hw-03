@@ -241,6 +241,10 @@ h1 {
 }
 .img-set2 {
   margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: calc((100% * 30px) / 3);
 }
 .page-header {
   width: 100%;
