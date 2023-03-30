@@ -102,7 +102,7 @@ ul {
   color: #757575;
 }
 section {
-  color: #ffffff;
+  background: #ffffff;
 }
 .primary-box {
   background-color: #2f303a;
@@ -114,6 +114,7 @@ h1 {
   line-height: 1.4;
   margin-top: 200px;
   margin-bottom: 40px;
+  color: #ffffff;
 }
 .sectionHeading {
   font-size: 36px;
@@ -239,18 +240,6 @@ h1 {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.img-set2 {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-}
-.item2 {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
 .page-header {
   width: 100%;
   height: 80px;
@@ -263,6 +252,7 @@ h1 {
 /*-------do menu muszisz uzyc padingow-------*/
 .menu {
   display: flex;
+  justify-content: space-between;
 }
 
 .buttonsP {
@@ -276,10 +266,21 @@ h1 {
   gap: 30px;
 }
 .description {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .buttonsP {
   margin-top: 94px;
   margin-bottom: 50px;
+}
+.item2 {
+  padding: 0 auto;
+  flex-basis: calc((100% - 30px) / 3);
+}
+.img-set2 {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
