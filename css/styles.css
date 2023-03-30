@@ -243,12 +243,13 @@ h1 {
   margin: auto;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
 }
 .item2 {
   background: #ffffff;
   border: 1px solid #eeeeee;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .page-header {
   width: 100%;
@@ -275,8 +276,6 @@ h1 {
   gap: 30px;
 }
 .description {
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
