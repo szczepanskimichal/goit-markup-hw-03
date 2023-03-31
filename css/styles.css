@@ -167,6 +167,7 @@ h1 {
   background: #2f303a;
   letter-spacing: 0.03em;
   color: #ffffff;
+  padding-top: 20px;
 }
 .address a {
   font-size: 14px;
@@ -298,4 +299,7 @@ h1 {
 }
 img {
   display: flex;
+}
+.description2 {
+  margin: 20px 24px 20px 24px;
 }
