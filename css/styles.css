@@ -263,8 +263,11 @@ h1 {
 
 /*-------------------------*/
 .whatWeDo {
-  display: flex;
   gap: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 .description {
   display: flex;
