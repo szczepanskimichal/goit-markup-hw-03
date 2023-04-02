@@ -153,6 +153,7 @@ h1 {
   letter-spacing: 0.03em;
   line-height: 1.2;
   color: #212121;
+  margin-top: 10px;
 }
 .footer {
   background: #2f303a;
@@ -274,6 +275,8 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .buttonsP {
