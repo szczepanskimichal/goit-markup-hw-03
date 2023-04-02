@@ -181,6 +181,14 @@ h1 {
 .contact {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.itemNav2 {
+  padding-left: 25px;
+  display: flex;
+  justify-content: space-between;
 }
 .tel {
   font-size: 14px;
@@ -302,4 +310,6 @@ img {
 }
 .description2 {
   margin: 20px 24px 20px 24px;
+}
+.nav2 {
 }
