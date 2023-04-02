@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 body {
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
 }
-
 .logo {
   font-family: "Raleway";
 }
@@ -189,9 +189,7 @@ h1 {
   line-height: 1.7;
   color: #757575;
 }
-
 /*Portfolio*/
-
 .buttonP {
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -259,12 +257,10 @@ h1 {
   padding: 0;
 }
 /*-------do menu muszisz uzyc padingow-------*/
-
 .buttonsP {
   display: flex;
   justify-content: center;
 }
-
 /*-------------------------*/
 .whatWeDo {
   gap: 30px;
@@ -281,7 +277,6 @@ h1 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
 .buttonsP {
   margin-top: 94px;
   margin-bottom: 50px;
