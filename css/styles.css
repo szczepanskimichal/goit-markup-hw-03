@@ -158,6 +158,9 @@ h1 {
 .footer {
   background: #2f303a;
   margin-top: 94px;
+  height: 252px;
+  display: flex;
+  align-items: center;
 }
 .address {
   font-family: "Roboto";
