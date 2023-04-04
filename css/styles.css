@@ -7,7 +7,11 @@ body {
   margin: 0 auto;
 }
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  margin-right: 93px;
 }
 .logo:hover {
   text-decoration: none;
@@ -218,13 +222,11 @@ h1 {
 }
 .container {
   max-width: 1200px;
-  width: 100%;
   margin: 0 auto;
-  padding-top: 0;
   padding: 0 15px;
-  justify-items: center;
-  align-items: center;
+  display: flex;
 }
+
 .primary-box {
   display: flex;
   flex-direction: column;
@@ -253,12 +255,8 @@ h1 {
 .page-header {
   height: 80px;
   /*  Making header.page-header a Flex-container and aligning elements  */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
   border-bottom: 1px solid #ececec;
-  margin: 0;
-  padding: 0;
 }
 .buttonsP {
   display: flex;
@@ -299,21 +297,21 @@ h1 {
 .nav {
   display: flex;
   justify-content: space-between;
+  max-width: 492px;
+  flex-wrap: wrap;
   align-items: center;
 }
-.nav .item {
-  margin-right: 50px;
+.navList {
+  width: 254px;
+  display: flex;
+  justify-content: space-between;
 }
-
 img {
   display: flex;
 }
 .description2 {
   margin: 20px 24px 20px 24px;
 }
-.nav2 {
-}
-
 .post {
   max-width: 600px;
   padding: 20px;
@@ -325,7 +323,6 @@ img {
   box-shadow: 0 2.8px 2.2px red, 0 6.7px 5.3px blue, 0 12.5px 10px green,
     0 22.3px 17.9px purple, 0 41.8px 33.4px orange, 0 100px 80px teal;
 }
-
 .post-title {
   margin-top: 0;
 }
