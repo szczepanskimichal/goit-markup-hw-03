@@ -182,18 +182,7 @@ h1 {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.contact {
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-}
-.itemNav2 {
-  padding-left: 25px;
-  display: flex;
-  justify-content: space-between;
-}
+
 .tel {
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -224,7 +213,6 @@ h1 {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
 }
 
 .primary-box {
@@ -252,10 +240,7 @@ h1 {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.page-header {
-  height: 80px;
-  border-bottom: 1px solid #ececec;
-}
+
 .buttonsP {
   display: flex;
   justify-content: center;
@@ -292,16 +277,30 @@ h1 {
   padding: 0;
   padding-bottom: 94px;
 }
+.page-header {
+  height: 80px;
+  border-bottom: 1px solid #ececec;
+}
 .nav {
   display: flex;
   max-width: 492px;
-  flex-wrap: wrap;
+  align-content: center;
   align-items: center;
+  text-align: center;
 }
 .navList {
   width: 254px;
   display: flex;
   justify-content: space-between;
+}
+.contact {
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  display: flex;
+}
+.itemNav2 {
+  padding-left: 50px;
 }
 img {
   display: flex;
