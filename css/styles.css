@@ -254,8 +254,6 @@ h1 {
 }
 .page-header {
   height: 80px;
-  /*  Making header.page-header a Flex-container and aligning elements  */
-
   border-bottom: 1px solid #ececec;
 }
 .buttonsP {
@@ -296,7 +294,6 @@ h1 {
 }
 .nav {
   display: flex;
-  justify-content: space-between;
   max-width: 492px;
   flex-wrap: wrap;
   align-items: center;
