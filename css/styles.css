@@ -300,21 +300,25 @@ h2 {
 .page-header {
   height: 80px;
   border-bottom: 1px solid #ececec;
+  align-items: center;
 }
 .nav {
   display: flex;
   max-width: 492px;
+  align-items: center;
 }
 .navList {
   width: 254px;
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 .contact {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   margin: 0;
   display: flex;
+  align-items: center;
 }
 .itemNav2 {
   padding-left: 50px;
@@ -341,4 +345,7 @@ img {
 }
 .post-text {
   margin-bottom: 0;
+}
+.item {
+  margin-right: 46px;
 }
