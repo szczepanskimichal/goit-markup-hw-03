@@ -117,15 +117,16 @@ h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  margin-top: 200px;
   margin-bottom: 40px;
   color: #ffffff;
+  text-align: center;
 }
 .sectionHeading {
   margin-bottom: 50px;
   margin-top: 94px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 h2 {
   font-size: 36px;
