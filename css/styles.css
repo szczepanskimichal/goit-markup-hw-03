@@ -112,6 +112,8 @@ section {
 .primary-box {
   background-color: #2f303a;
   max-height: 600px;
+  align-items: center;
+  padding-top: 200px;
 }
 h1 {
   font-weight: 900;
