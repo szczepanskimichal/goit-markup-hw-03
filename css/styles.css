@@ -162,8 +162,7 @@ h1 {
   background: #2f303a;
   margin-top: 94px;
   height: 252px;
-  display: flex;
-  align-items: center;
+  padding-top: 60px;
 }
 .address {
   font-family: "Roboto";
@@ -174,6 +173,9 @@ h1 {
   background: #2f303a;
   letter-spacing: 0.03em;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: 9px;
   padding-top: 20px;
 }
 .address a {
@@ -181,6 +183,10 @@ h1 {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.emailWebmaster {
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 
 .tel {
@@ -214,7 +220,18 @@ h1 {
   margin: 0 auto;
   padding: 0 15px;
 }
-
+.containerHeader {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.containerFooter {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .primary-box {
   display: flex;
   flex-direction: column;
@@ -284,9 +301,6 @@ h1 {
 .nav {
   display: flex;
   max-width: 492px;
-  align-content: center;
-  align-items: center;
-  text-align: center;
 }
 .navList {
   width: 254px;
