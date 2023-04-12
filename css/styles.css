@@ -78,16 +78,16 @@ ul {
 }
 .button {
   width: 200px;
-  height: 50px;
+  /*height: 50px;*/
   letter-spacing: 0.03em;
-  line-height: 30px;
+  line-height: 1.9;
   font-size: 16px;
   font-weight: 700;
   background-color: #2196f3;
   color: #ffffff;
   cursor: pointer;
   padding: 6px 22px;
-  margin-bottom: 240px;
+  /*margin-bottom: 240px;*/
   border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -108,18 +108,14 @@ ul {
 }
 section {
   background: #ffffff;
-}
-.primary-box {
-  background-color: #2f303a;
-  max-height: 600px;
-  align-items: center;
-  padding-top: 200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   color: #ffffff;
   text-align: center;
 }
@@ -166,8 +162,8 @@ h2 {
 }
 .footer {
   background: #2f303a;
-  margin-top: 94px;
-  height: 252px;
+  /*margin-top: 94px;
+  /*height: 252px;*/
   padding-top: 60px;
 }
 .address {
@@ -233,12 +229,12 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
-.containerFooter {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 .primary-box {
+  background-color: #2f303a;
+  /*max-height: 600px;*/
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 280px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -263,7 +259,6 @@ h2 {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .buttonsP {
   display: flex;
   justify-content: center;
@@ -301,7 +296,7 @@ h2 {
   padding-bottom: 94px;
 }
 .page-header {
-  height: 80px;
+  /*height: 80px;*/
   border-bottom: 1px solid #ececec;
 }
 .nav {
@@ -329,7 +324,7 @@ img {
   display: flex;
 }
 .description2 {
-  margin: 20px 24px 20px 24px;
+  padding: 20px 24px 20px 24px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
