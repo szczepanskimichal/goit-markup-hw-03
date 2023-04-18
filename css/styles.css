@@ -78,7 +78,6 @@ ul {
 }
 .button {
   width: 200px;
-  /*height: 50px;*/
   letter-spacing: 0.03em;
   line-height: 1.9;
   font-size: 16px;
@@ -87,7 +86,6 @@ ul {
   color: #ffffff;
   cursor: pointer;
   padding: 6px 22px;
-  /*margin-bottom: 240px;*/
   border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -106,13 +104,7 @@ ul {
   color: #757575;
   padding-top: 10px;
 }
-section {
-  /*
-  background: #ffffff;
-  padding-top: 94px;
-  padding-bottom: 94px;
-*/
-}
+
 h1 {
   font-weight: 900;
   font-size: 44px;
@@ -123,10 +115,19 @@ h1 {
 }
 .sectionHeading {
   margin-bottom: 50px;
-  margin-top: 94px;
+  /*margin-top: 94px;*/
   display: flex;
   justify-content: center;
   align-items: center;
+}
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.backgroundColor {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 h2 {
   font-size: 36px;
@@ -164,8 +165,6 @@ h2 {
 }
 .footer {
   background: #2f303a;
-  /*margin-top: 94px;
-  /*height: 252px;*/
   padding-top: 60px;
 }
 .address {
@@ -233,13 +232,11 @@ h2 {
 }
 .primary-box {
   background-color: #2f303a;
-  /*max-height: 600px;*/
   align-items: center;
   padding-top: 200px;
   padding-bottom: 280px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .loremIpsum {
   display: flex;
@@ -282,8 +279,7 @@ h2 {
   margin-bottom: 30px;
 }
 .buttonsP {
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .item2 {
   /*  Set the width of the elements*/
@@ -298,7 +294,6 @@ h2 {
   padding-bottom: 94px;
 }
 .page-header {
-  /*height: 80px;*/
   border-bottom: 1px solid #ececec;
 }
 .nav {
